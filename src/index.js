@@ -119,7 +119,7 @@ const ContactsList = () => {
           <img src={pic} alt="avatar" />
           
           <div className="chat-about">
-            <div className="chat-with">Abhinav</div>
+            <div className="chat-with">Avleen</div>
             <div className="chat-num-messages">Online</div>
           </div>
           <i className="fa fa-star"></i>

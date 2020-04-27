@@ -18,7 +18,7 @@ const Chat = () => {
                 
               </div>
               <div className="message other-message float-right">
-                Hi babe, how are you? What's going on?
+                How are you?
               </div>
             </li>
             
@@ -28,7 +28,7 @@ const Chat = () => {
                 <span className="message-data-time">10:12 AM, Today</span>
               </div>
               <div className="message my-message">
-                Nothing much..just got free from my assignments. u tell?
+                just got free. u tell?
               </div>
             </li>
             
@@ -39,7 +39,7 @@ const Chat = () => {
                 
               </div>
               <div className="message other-message float-right">
-                I am also doing my assignments. lets meet today.
+               lets meet today.
               </div>
             </li>
             

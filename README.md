@@ -1,3 +1,5 @@
+# ✅ READY TO GRADE
+
 # React Chat Application
 
 ## Description

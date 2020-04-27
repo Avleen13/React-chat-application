@@ -1,21 +1,15 @@
 import React from 'react';
+import MessageSend from 'components/MessageSend';
 import pic from "../../images/pic.jpg";
+import ChatHeader from 'components/ChatHeader';
+
 
 
 const Chat = () => {
     return (
         <div className="chat">
-        <div className="chat-header clearfix">
-          <img src={pic} alt="avatar" />
-          
-          <div className="chat-about">
-            <div className="chat-with">Avleen</div>
-            <div className="chat-num-messages">Online</div>
-          </div>
-          <i className="fa fa-star"></i>
-        </div> 
-        
-        <div className="chat-history">
+        <ChatHeader/>
+        <div className="chat-history" id="chat-window">
           <ul>
             <li className="clearfix">
               <div className="message-data align-right">
@@ -73,18 +67,12 @@ const Chat = () => {
           
         </div> 
         
-        <div className="chat-message clearfix">
-          <textarea name="message-to-send" id="message-to-send" placeholder ="Type your message" rows="3"></textarea>
-                  
-          <i className="fa fa-file-o"></i> &nbsp;&nbsp;&nbsp;
-          <i className="fa fa-file-image-o"></i>
-          
-          <button>Send</button>
-  
-        </div> 
+        <MessageSend />
         
       </div> 
     )
   }
+  
+  
 
 export default Chat;

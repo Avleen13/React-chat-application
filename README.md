@@ -10,5 +10,5 @@ This is a Chat Application built in React.js and Webpack.
 
 ### Type ```npm install``` to install all dependencies 
 
-### type ```npm start``` to run the app locally
+### Type ```npm start``` to run the app locally
 

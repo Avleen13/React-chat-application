@@ -1,4 +1,4 @@
-{
+/*{
   "name": "React-chat-application",
   "version": "1.0.0",
   "description": "",
@@ -29,3 +29,4 @@
     "react-dom": "^16.13.1"
   }
 }
+*/
